@@ -4,10 +4,10 @@ require_once "util/config.php";
 <div class="py-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 mr-auto order-2 order-md-1">
+            <div class="col-md-4 offset-md-2 mr-auto order-2 order-md-1">
                 <img class="img-fluid d-block border rounded-lg mt-4" src="static/self.jpg"> <?php /* 350x525 */ ?>
             </div>
-            <div class="px-md-5 p-3 d-flex flex-column align-items-start justify-content-center col-md-7 order-1 order-md-2">
+            <div class="px-md-5 p-3 d-flex flex-column align-items-start justify-content-center col-md-5 order-1 order-md-2">
                 <h1>David Mödinger</h1>
                 <p class="mb-3 lead">
                     Description of me.
