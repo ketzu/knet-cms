@@ -2,16 +2,11 @@
 
 This is the custom mini CMS (content management system) I built for my personal website: ketzu.net
 
-Missing is the file util/config.php of the form:
+I consider this an example project for fun, not a drop in CMS for everyone, as I created the sql tables manually.
+The tables I used are exported into [knet_cms.sql](knet_cms.sql).
 
-```########## Database Info ##########
-$db_server = '';
-$db_name = '';
-$db_user = '';
-$db_passwd = '';
+Project dependent changes if you want to try it:
 
-######### Create connection
-$mysqli = new mysqli($db_server, $db_user, $db_passwd, $db_name);
-if ($mysqli->connect_errno) {
-    die("Verbindung fehlgeschlagen: " . $mysqli->connect_error);
-}```
+Database conection is configured in [util/config.php](util/config.php).
+
+Superuser Password (singular) is configured in [login.php](login.php), as there is only one user.
