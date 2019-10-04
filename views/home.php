@@ -10,7 +10,13 @@ require_once "util/config.php";
             <div class="px-md-5 p-3 d-flex flex-column align-items-start justify-content-center col-md-5 order-1 order-md-2">
                 <h1>David Mödinger</h1>
                 <p class="mb-3 lead">
-                    Description of me.
+                    I am a computer scientist at <a href="https://www.uni-ulm.de/index.php?id=david">Ulm University</a>.
+                    Previously I worked on the <a href="https://www.uni-ulm.de/in/vs/res/proj/pricloud/">PriCloud</a> research project for a privacy preserving Cloud storage using blockchains.
+                    Currently I am working on <a href="https://arxiv.org/abs/1807.11338">privacy preserving broadcast protocols</a>.
+                </p>
+                <p class="mb-3 lead">
+                    Outside of university, I like to work on various things.
+                    For some examples see the <a href="index.php?page=projects">projects</a> or <a href="index.php?page=photography">photography</a> ppage.
                 </p>
                 <div class="row text-muted">
                     <div class="col-12 p-2 offset-1">
