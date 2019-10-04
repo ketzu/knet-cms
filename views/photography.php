@@ -51,7 +51,9 @@ $thumbs_width = $thumbs_height * 2;
                                     make_thumb('galleries/' . $entry . '/highlight.jpg', $thumbnail_image, $thumbs_width, $thumbs_height);
                                 }
                             }
-                            echo '<div class="col-md-4 p-3"><a href="', $link_basic, '&gallery=', urlencode($entry), '"><img class="img-fluid d-block" src="',$thumbnail_image,'"></a></div>';
+                            echo '<div class="col-md-4 p-3"><a href="', $link_basic, '&gallery=', urlencode($entry), '"><img class="img-fluid d-block" src="',$thumbnail_image,'"></a>
+                                     <h2 class="text-center p-2">', $entry ,'</h2>
+                                 </div>';
                         }
                     }
                     closedir($handle);
