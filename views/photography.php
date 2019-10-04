@@ -14,6 +14,8 @@ $thumbs_width = $thumbs_height * 2;
 ?>
 
 <?php
+if(!$overview)
+    require_once "templates/lightbox.php";
 ?>
 
 <div class="py-5">
@@ -75,7 +77,7 @@ $thumbs_width = $thumbs_height * 2;
                             make_thumb($images_dir . $file, $thumbnail_image, $thumbs_width, $thumbs_height);
                         }
                     }
-                    echo '<div class="col-md-4 p-3"><a href="#"><img class="img-fluid d-block" src="', $thumbnail_image, '"></a></div>';
+                    echo '<div class="col-md-4 p-3"><a href="#lightboxModal" onclick="showLightbox(\'', $images_dir . $file,'\')"><img class="img-fluid d-block" src="', $thumbnail_image, '"></a></div>';
                 }
             }
             ?>
