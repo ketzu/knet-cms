@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$hash = '$2y$10$sipSkUupg9rVUxbkRCdOSOTGrCtZjB8SB9OzjNfRHJzaszoaTmXPG';
+$hash = '$2y$10$dFzqS3v2bjNYSQEho4OYrOdeutF4Lt6IQu4w3t5Z36Bj8TQwDOeeG';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['password'])) {
     // login attempt
